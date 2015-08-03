@@ -1,0 +1,28 @@
+.jumbotron {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.img {
+	background-image: url("../images/Logo_images/City.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 300px;
+}
+
+.vans {
+	background-color: #d7de3b;
+	padding: 40px;
+	text-align: center;
+	display: block;
+}
+
+.vans h1 {
+	font-size: 48px;
+	font-weight: 
+}
+
+hr {
+	width: 100px;
+	background-color: black;
+}
