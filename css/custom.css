@@ -1,6 +1,17 @@
-.navbar-brand img {
-	top: -10px;
+h1 {
+	color: #000;
 }
+
+hr {
+	margin-top: 34px;
+	width: 800px;
+	border-top: 5px solid #000;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+}
+
 .jumbotron {
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -14,18 +25,19 @@
 }
 
 .vans {
-	background-color: #d7de3b;
-	padding: 40px;
+	background-color: #D7DE3B;
+	padding: 0px;
 	text-align: center;
 	display: block;
 }
 
 .vans h1 {
-	font-size: 48px;
-	font-weight: 
+	font-size: 68px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-hr {
-	width: 100px;
-	background-color: black;
+.vans .col-md-4 {
+	overflow: hidden;
+	padding: 0;
 }
