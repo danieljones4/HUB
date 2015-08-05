@@ -1,20 +1,56 @@
+
+
+
 h1 {
 	color: #000;
+	text-transform: uppercase;
 }
 
 hr {
-	margin-top: 34px;
+	margin-top: 116px;
 	width: 800px;
 	border-top: 5px solid #000;
+}
+
+p {
+	text-transform: uppercase;
 }
 
 .btn {
 	border-radius: 40px;
 	background-color: #D7DE3B;
+	color: #000;
+	border: 0px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.btn:active {
+	background-color: #D7DE3B;
 }
 
 .navbar-brand {
 	padding: 0 15px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+.fa-stack {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.fa-stack-2x {
+	color: #fff;
+	font-size: 40px;
+}
+
+.fa-stack-1x {
+	color: #000;
 }
 
 .jumbotron {
@@ -29,22 +65,25 @@ hr {
 	padding-bottom: 300px;
 }
 
-.vans {
+.header {
 	background-color: #D7DE3B;
 	padding: 0px;
 	text-align: center;
 	display: block;
 }
 
-.vans h1 {
+.header h1 {
 	font-size: 68px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 80px 0;
 }
 
-.vans .col-md-4 {
+.header .col-md-4 {
 	overflow: hidden;
 	padding: 0;
+}
+
+.product img {
+	margin: 30px 0;
 }
 
 .product {
@@ -54,4 +93,14 @@ hr {
 .product img {
 	height: 140px;
 	width: initial;
+}
+
+.specs {
+	margin-top: 25px;
+}
+
+@media (min-width: 786px) {
+	.navbar-brand img {
+		height: 70px;
+	}
 }
