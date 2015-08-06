@@ -62,7 +62,40 @@ p {
 	background-image: url("../images/Logo_images/City.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	padding-bottom: 300px;
+	padding-bottom: 100px;
+}
+
+.jumbo-img p {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.jumbo-img a { 
+	color: inherit; 
+} 
+
+.jumbo-img h3 {
+	color: #D7DE3B;
+}
+
+.boxes {
+	text-align: center;
+	color: #D7DE3B;
+	background-color: #2b2f33;
+	
+	opacity: 0.85;
+}
+
+.boxes form {
+	color: #2b2f33;
+}
+
+.reserve {
+	border: 10px;
+	border-color: #D7DE3B;
 }
 
 .header {
