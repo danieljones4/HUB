@@ -93,6 +93,10 @@ p {
 	color: #2b2f33;
 }
 
+.jumbotron .space {
+	background-color: none;
+}
+
 .reserve {
 	border: 10px;
 	border-color: #D7DE3B;
