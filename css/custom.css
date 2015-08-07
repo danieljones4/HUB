@@ -75,7 +75,13 @@ p {
 
 .jumbo-img a { 
 	color: inherit; 
+	text-decoration: none;
 } 
+
+.number {
+	color: #D7DE3B;
+	font-size: 30px;
+}
 
 .jumbo-img h3 {
 	color: #D7DE3B;
@@ -85,7 +91,6 @@ p {
 	text-align: center;
 	color: #D7DE3B;
 	background-color: #2b2f33;
-	
 	opacity: 0.85;
 }
 
@@ -98,8 +103,9 @@ p {
 }
 
 .reserve {
-	border: 10px;
+	border: 3px;
 	border-color: #D7DE3B;
+	border-style: solid;
 }
 
 .header {
