@@ -62,7 +62,7 @@ p {
 	background-image: url("../images/Logo_images/City.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .jumbo-img p {
@@ -92,8 +92,12 @@ p {
 	text-align: center;
 	color: #D7DE3B;
 	background-color: #2b2f33;
-	opacity: 0.85;
-	padding-left: -20px;
+	opacity: 0.85;	
+}
+
+.imgbox {
+	top: -100;
+	margin-left: 150px;
 }
 
 .boxes form {
@@ -111,10 +115,6 @@ p {
     float:none;
     /* inline-block space fix */
     margin-right:-4px;
-}
-
-.jumbotron .space {
-	background-color: none;
 }
 
 .reserve {
