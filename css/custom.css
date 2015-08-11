@@ -71,6 +71,7 @@ p {
 	color: white;
 	text-decoration: none;
 	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .jumbo-img a { 
@@ -92,10 +93,24 @@ p {
 	color: #D7DE3B;
 	background-color: #2b2f33;
 	opacity: 0.85;
+	padding-left: -20px;
 }
 
 .boxes form {
 	color: #2b2f33;
+}
+
+/* centered columns styles */
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 
 .jumbotron .space {
