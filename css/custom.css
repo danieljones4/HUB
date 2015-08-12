@@ -1,5 +1,7 @@
 
-
+body {
+	padding-top: 70px;
+}
 
 h1 {
 	color: #000;
@@ -23,7 +25,8 @@ p {
 	border: 0px;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 14px;
+	padding: 10px 32px;
 }
 
 .btn:active {
@@ -54,6 +57,7 @@ p {
 }
 
 .jumbotron {
+	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -66,7 +70,7 @@ p {
 }
 
 .jumbo-img p {
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 	color: white;
 	text-decoration: none;
@@ -133,6 +137,8 @@ p {
 .header h1 {
 	font-size: 68px;
 	margin: 80px 0;
+	color: #000;
+	font-weight: 200;
 }
 
 .header .col-xs-4 {
@@ -160,6 +166,31 @@ p {
 
 .specs {
 	margin-top: 25px;
+}
+
+.map {
+	font-size: 32px;
+	background-color: #EFEFEF;
+}
+
+.map-frame {
+	height: 400px;
+	width: inherit;
+}
+
+.map-cont {
+	padding: 0;
+}
+
+.map-inst {
+	display: inline-block;
+	float: left;
+}
+
+.map-add {
+	display: inline-block;
+	float: right;
+	font-weight: 100;
 }
 
 @media (min-width: 786px) {
