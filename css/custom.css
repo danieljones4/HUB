@@ -41,6 +41,10 @@ p {
 	height: 50px;
 }
 
+.navbar-inverse {
+	background-color: #2B2F33;
+}
+
 .fa-stack {
 	width: 40px;
 	height: 40px;
