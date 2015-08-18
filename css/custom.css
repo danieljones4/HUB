@@ -29,8 +29,8 @@ p {
 	padding: 10px 32px;
 }
 
-.btn:active {
-	background-color: #D7DE3B;
+.btn :active {
+	background-color: #2B2F33;
 }
 
 .navbar-brand {
@@ -54,6 +54,10 @@ p {
 .fa-stack-2x {
 	color: #fff;
 	font-size: 40px;
+}
+
+.fa-stack:hover {
+	color: #D7DE3B;
 }
 
 .fa-stack-1x {
@@ -183,9 +187,13 @@ p {
 	background-color: #EFEFEF;
 }
 
-.map-frame {
+#map {
 	height: 400px;
 	width: inherit;
+}
+
+.map-frame {
+
 }
 
 .map-cont {
