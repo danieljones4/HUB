@@ -1,6 +1,6 @@
 
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 h1 {
@@ -101,11 +101,11 @@ p {
 .boxes {
 	text-align: center;
 	color: #D7DE3B;	
+	z-index: 500;
 }
 
 .imgbox {
-	top: -100;
-	margin-left: 150px;
+
 }
 
 .boxes form {
@@ -116,30 +116,31 @@ p {
 
 .row-centered {
     text-align:center;
+    margin: 0;
 }
 
 .col-centered {
-    display:inline-block;
-    float:none;
-    /* inline-block space fix */
-    margin-right:-4px;
 }
 
 .reserve {
 	border: 3px;
 	border-color: #D7DE3B;
 	border-style: solid;
-	z-index: 500;
+	overflow: hidden;
+}
+
+.box-back-outer {
+	position: relative;
+	-webkit-transform: translate(0,-100%);
+    -ms-transform: translate(0,-100%);
+    -o-transform: translate(0,-100%);
+    transform: translate(0,-100%);
+    z-index: -1;
 }
 
 .box-back {
-	position: absolute;
-    height: 100%;
+	position: relative;
     width: 100%;
-    -webkit-transform: translate(-15px,-100%);
-    -ms-transform: translate(-15px,-100%);
-    -o-transform: translate(-15px,-100%);
-    transform: translate(-15px,-100%);
     background-color: #2b2f33;
     opacity: 0.85;
     z-index: -1;
@@ -158,15 +159,6 @@ p {
 	color: #000;
 	font-weight: 200;
 }
-
-.header .col-xs-4 {
-	overflow: hidden;
-	padding: 0;
-}
-
-.row .col-xs-2 {
-		width: 33.33333333%;
-	}
 
 .product img {
 	margin: 30px 0;
@@ -228,15 +220,13 @@ footer {
 	.navbar-brand img {
 		height: 70px;
 	}
+
+	body {
+		padding-top: 70px;
+	}
 }
 
 @media (min-width: 992px) {
-	.row .col-xs-4 {
-		width: 40%;
-	}
 
-	.row .col-xs-2 {
-		width: 20%;
-	}
 
 }
