@@ -67,6 +67,7 @@ p {
 	background-image: url("../images/Logo_images/City.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: 0;
 }
 
 .jumbo-img {
@@ -99,9 +100,7 @@ p {
 
 .boxes {
 	text-align: center;
-	color: #D7DE3B;
-	background-color: #2b2f33;
-	opacity: 0.85;	
+	color: #D7DE3B;	
 }
 
 .imgbox {
@@ -130,6 +129,20 @@ p {
 	border: 3px;
 	border-color: #D7DE3B;
 	border-style: solid;
+	z-index: 500;
+}
+
+.box-back {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translate(-15px,-100%);
+    -ms-transform: translate(-15px,-100%);
+    -o-transform: translate(-15px,-100%);
+    transform: translate(-15px,-100%);
+    background-color: #2b2f33;
+    opacity: 0.85;
+    z-index: -1;
 }
 
 .header {
