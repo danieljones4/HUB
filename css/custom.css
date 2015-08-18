@@ -64,13 +64,14 @@ p {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
-}
-
-.jumbo-img {
 	background-image: url("../images/Logo_images/City.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+.jumbo-img {
 	padding-bottom: 50px;
+
 }
 
 .jumbo-img p {
@@ -195,6 +196,19 @@ p {
 	display: inline-block;
 	float: right;
 	font-weight: 100;
+}
+
+.footer {
+	background-color: #2B2F33;
+	padding: 0px;
+	height: 30%;
+	text-align: center;
+	display: block;
+}
+
+footer {
+	text-align: center;
+
 }
 
 @media (min-width: 786px) {
